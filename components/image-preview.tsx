@@ -10,7 +10,7 @@ export default function ImagePreview({ preview }: ImagePreviewProps) {
       <img
         src={preview || "/placeholder.svg"}
         alt="Uploaded image"
-        className="w-full h-auto max-h-96 object-cover"
+        className="w-full h-auto max-h-full object-cover"
       />
     </div>
   );

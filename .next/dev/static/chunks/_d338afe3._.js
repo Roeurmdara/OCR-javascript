@@ -839,7 +839,7 @@ function ImagePreview({ preview }) {
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
             src: preview || "/placeholder.svg",
             alt: "Uploaded image",
-            className: "w-full h-auto max-h-96 object-cover"
+            className: "w-full h-auto max-h-full object-cover"
         }, void 0, false, {
             fileName: "[project]/components/image-preview.tsx",
             lineNumber: 10,
